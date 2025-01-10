@@ -1,6 +1,6 @@
 const Portfolioo = () =>{
     return (
-        <div>Portfolioo Page</div>
+        <div>Portfolio Page</div>
     )
 }
 
