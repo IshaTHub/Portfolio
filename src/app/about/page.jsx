@@ -41,10 +41,18 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              I am a Software Developer at Ornate TecnoServices Pvt Ltd, where I
+              transitioned from a Software Trainee after a focused 3-month
+              training period. My expertise lies in building scalable,
+              user-centric applications using modern frameworks like React.js,
+              Next.js, Framer Motion, and Tailwind CSS. I have hands-on
+              experience in full-stack development, including API integration
+              and database management with PostgreSQL and ASP.NET MVC. One of my
+              notable projects is a Rental Management System, where I
+              implemented full CRUD operations to deliver a robust solution.
+              Passionate about software development, I focus on UI/UX design,
+              algorithm optimization, and Agile methodologies, continually
+              striving to innovate and create impactful digital solutions.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -52,7 +60,7 @@ const AboutPage = () => {
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
-            <svg
+              <svg
                 width="185"
                 height="100"
                 viewBox="0 0 370 114"
@@ -233,7 +241,7 @@ const AboutPage = () => {
           {/* EXPERIENCE CONTAINER */}
           <div
             className="flex flex-col gap-12 justify-center pb-48"
-             ref={experienceRef}
+            ref={experienceRef}
           >
             {/* EXPERIENCE TITLE */}
             <motion.h1
@@ -247,7 +255,7 @@ const AboutPage = () => {
             {/* EXPERIENCE LIST */}
             <motion.div
               initial={{ x: "-300px" }}
-                animate={isExperienceRefInView ? { x: "0" } : {}}
+              animate={isExperienceRefInView ? { x: "0" } : {}}
               className=""
             >
               {/* EXPERIENCE LIST ITEM */}
@@ -303,8 +311,8 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    React-based application development,
-                    leveraging advanced skills.{" "}
+                    React-based application development, leveraging advanced
+                    skills.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
