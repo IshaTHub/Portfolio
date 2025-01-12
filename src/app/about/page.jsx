@@ -55,9 +55,9 @@ const AboutPage = () => {
               striving to innovate and create impactful digital solutions.
             </p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+            {/* <span className="italic">
+              
+            </span> */}
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
               <svg
