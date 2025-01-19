@@ -39,6 +39,8 @@ const items = [
   },
 ];
 
+//new changes made here 
+
 const PortfolioPage = () => {
   const ref = useRef();
 
@@ -121,4 +123,4 @@ const PortfolioPage = () => {
 export default PortfolioPage;
 
 
-//new
+
